@@ -43,6 +43,9 @@ _vimrc或者.vimrc
 体验光标移动：hjklwb以及[n]hjklwb  
 自动补全：C-p  
 体验大小写：g~~ guu gUU g??分别是大小写互换、小写、大写和加密  
-
+####3.11 体验语法高亮和折叠 
+   此部分讲起来太复杂。为简化计，请下载test2.txt；下载tx1.vim 并保存在d:\program files\vim\vimfiles\syntax\tx1.vim 用GVIM 打开（比如要打开d:\test2.txt，请在VIM 中:tabnew  d:\test2.txt）它。平平无奇是吗？这是因为 VIM 并不知道这个文件要加亮。键入一个命令:setf  tx1，这就相当于告诉VIM 此文件的类型是tx1，所以就按照刚下载的tx1.vim 进行高亮和折叠。
+####3.12 文本文件加密
+加密命令 —— :X
 
 
