@@ -11,4 +11,11 @@
 语法高亮显示 —— :sy on      ## 语法加亮关闭 —— :sy clear
 ####3.3 改头换面
 隐藏菜单栏和工具栏 —— :set go=   ## 说明：set表示一般性设置，go是gui option的缩写，等于空白就是取消显示
+设置调色方案为xxx  —— :colo evening  ## 说明输入 eve后按Tab键可自动补全
+####3.4 打开范例文件
+在vim新标签中打开文件 —— :tabnew /dir/test.txt
+####3.5 vim配置文件
+_vimrc或者.vimrc
+####3.6 打开范例文件
+在当前标签栏中打开文件 —— :e /dir/test.txt
 
